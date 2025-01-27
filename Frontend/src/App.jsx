@@ -6,7 +6,7 @@ import Service from './Service/Service';
 import SignUp from './components/SignUp';
 import { useAuth } from './context/AuthProvider';
 import { Toaster } from 'react-hot-toast';
-import Services from './components/services';
+import Services from './components/Services.jsx';
 
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Login from './login';
+import Login from './Login.jsx';
 import { useAuth } from '../context/AuthProvider';
 import Logout from './Logout';
 function Navbar() {

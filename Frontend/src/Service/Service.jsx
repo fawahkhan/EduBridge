@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Services from '../components/services'
+import Services from '../components/Services'
 import Footer from '../components/Footer'
 import list from "../../public/list.json"
 

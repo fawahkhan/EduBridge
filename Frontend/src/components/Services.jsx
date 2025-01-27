@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Await, Link } from "react-router-dom";
-import Cards from './cards';
+import Cards from './Cards';
 import list from "../../public/list.json"
 import axios from 'axios';
 function Services() {
