@@ -15,7 +15,7 @@ function Login() {
         phoneNumber:data.phoneNumber,
         password:data.password,
     }
-    await axios.post("https://edubridge-backend-gzov.onrender.com" , userInfo )
+    await axios.post("https://edubridge-backend-gzov.onrender.com/user/login" , userInfo )
     .then((res)=>{
         console.log(res.data)
         if(res.data){
