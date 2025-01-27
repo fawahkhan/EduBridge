@@ -13,7 +13,7 @@ function Features() {
   useEffect(()=>{
     const getBook = async()=>{
       try {
-       const res = await axios.get("http://localhost:4001/book")
+       const res = await axios.get("https://edubridge-backend-gzov.onrender.com")
        
         const data= res.data.filter((data) => data.category === "Featured");
 
